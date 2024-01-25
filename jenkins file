@@ -1,5 +1,9 @@
-pipeline {
-agent any option { skipDefaultCheckout()}
+node {
+        stage('checkout') {
+           steps {
+             checkout scm
+           }
+        }
         stage('Build') 
         {
             echo "Building the project.........."
