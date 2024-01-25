@@ -1,9 +1,4 @@
-node {
-        stage('checkout') {
-           steps {
-             checkout scm
-           }
-        }
+node {     
         stage('Build') 
         {
             echo "Building the project.........."
