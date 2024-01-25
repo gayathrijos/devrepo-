@@ -5,7 +5,7 @@ stages
 stage('Build') 
 { 
 echo "Building the project.........."
-{
+{;
 }
 }
 stage('Test') 
